@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope  } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { fadeInUp, fadeIn, scaleIn } from '@/utils/animations';
 
@@ -43,7 +43,7 @@ Junior Software Engineer | Full-Stack Developer | Growth-Minded Problem Solver  
             transition={{ delay: 0.5 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/brunolopes9"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -53,7 +53,7 @@ Junior Software Engineer | Full-Stack Developer | Growth-Minded Problem Solver  
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/brunolopes9/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -63,14 +63,14 @@ Junior Software Engineer | Full-Stack Developer | Growth-Minded Problem Solver  
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="mailto:bruno-lopes9@hotmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaTwitter />
+              <FaEnvelope  />
             </motion.a>
           </motion.div>
           <motion.div 
@@ -82,6 +82,21 @@ Junior Software Engineer | Full-Stack Developer | Growth-Minded Problem Solver  
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
+              
+              <Link
+                href="https://drive.google.com/file/d/15HAOYTRuWSOvudOAA-5ONlHW-bhfrW0e/view"
+                target="_blank"
+                className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
+              >
+                My CV
+              </Link>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              
               <Link
                 href="/projects"
                 className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"

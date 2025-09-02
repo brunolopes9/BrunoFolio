@@ -30,6 +30,11 @@ export default function About() {
           I&apos;m a junior Full Stack Developer with expertise in building modern web applications.
           With a strong foundation in both frontend and backend technologies, I create seamless
           user experiences and robust server-side solutions.
+I stand out for my
+fast learning, analytical thinking, discipline and focus on results. I am highly adaptable and motivated by
+challenges, with a strong growth mindset and a commitment to delivering value with quality. Fluent in four
+languages, I bring a high-performance attitude and an ambitious spirit oriented towards technical and
+personal excellence.
         </p>
       </motion.section>
 
