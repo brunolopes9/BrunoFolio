@@ -9,10 +9,7 @@ interface ContactRequestBody {
 export async function POST(request: Request) {
   try {
     await request.json() as ContactRequestBody
-    // Here you would typically:
-    // 1. Validate the input
-    // 2. Send an email using a service like SendGrid, AWS SES, etc.
-    // 3. Store the message in a database if needed
+
 
     // For now, we'll just simulate a successful response
     return NextResponse.json(

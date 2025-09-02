@@ -27,7 +27,7 @@ export default function About() {
         {...fadeInUp}
       >
         <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
-          I&apos;m a passionate Full Stack Developer with expertise in building modern web applications.
+          I&apos;m a junior Full Stack Developer with expertise in building modern web applications.
           With a strong foundation in both frontend and backend technologies, I create seamless
           user experiences and robust server-side solutions.
         </p>
@@ -60,7 +60,7 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Frontend</h3>
             <ul className="text-secondary space-y-2">
               <li>React / Next.js</li>
-              <li>TypeScript</li>
+              <li>TypeScript / Javascript</li>
               <li>Tailwind CSS</li>
               <li>HTML5 / CSS3</li>
             </ul>
@@ -116,33 +116,58 @@ export default function About() {
           initial="initial"
           animate="animate"
         >
-          <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-            variants={fadeInUp}
-            {...cardHoverSmall}
-          >
-            <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer</h3>
-            <p className="text-primary mb-2">Company Name • 2020 - Present</p>
-            <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Led development of multiple web applications using React and Node.js</li>
-              <li>Implemented CI/CD pipelines reducing deployment time by 50%</li>
-              <li>Mentored junior developers and conducted code reviews</li>
-            </ul>
-          </motion.div>
+
           
           <motion.div 
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Full Stack Developer</h3>
-            <p className="text-primary mb-2">Previous Company • 2018 - 2020</p>
+            <h3 className="text-xl font-semibold mb-2">Full Stack Developer / Intern </h3>
+            <p className="text-primary mb-2">Softinsa, Viseu • 2023</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Developed and maintained RESTful APIs</li>
-              <li>Built responsive user interfaces with modern JavaScript frameworks</li>
-              <li>Optimized database queries improving performance by 40%</li>
+              <li>Developed a Opportunity and Offer Management System:
+</li>
+              <li>Developed a full‑stack Web (React, Node.js, Sequelize/MySQL)</li>
+              <li>. Implemented multi‑profile authentication (SSO
+and password login), dashboards, reporting, notifications, and meeting
+scheduling</li>
+<li> Managed user permissions and multi‑profile roles</li>
+<li> Optimized workflows and centralizing
+opportunities and job openings for improved collaboration.
+</li>
             </ul>
           </motion.div>
+
+                    <motion.div 
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+            variants={fadeInUp}
+            {...cardHoverSmall}
+          >
+            <h3 className="text-xl font-semibold mb-2">Full-Stack Trainee (IoT and Web Systems)</h3>
+            <p className="text-primary mb-2">HUF, Tondela
+ • 2024</p>
+
+            <ul className="text-secondary list-disc list-inside space-y-2">
+              <li> Developed a real‑time worker and productivity monitoring system for a car
+factory.
+Built three main applications:</li>
+              <li>Admin Panel: Management of workers, machines, and beacons
+(JavaScript, PHP, HTML/CSS)
+</li>
+              <li>BLE Detection App: BLE‑based application to detect device scanning on
+machines
+</li>
+              <li>Real‑time Control Panel: Real‑time dashboard with historical analysis
+(Node.js, Express, MQTT)
+</li>
+<li> Reduced downtime caused by worker absence, enabling faster
+training and better workforce allocation</li>
+            </ul>
+          </motion.div>
+
+
+
         </motion.div>
       </motion.section>
 
@@ -169,9 +194,11 @@ export default function About() {
             {...cardHoverSmall}
           >
             <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
-            <p className="text-primary mb-2">University Name • 2014 - 2018</p>
+            <p className="text-primary mb-2">Escola Superior de Tecnologia e Gestão de Viseu • 2021 - 2024</p>
             <p className="text-secondary">
-              Graduated with honors. Focused on software engineering and web development.
+              Graduated with honors. Focused on software engineering and web development.  I always proved to be one of the best
+students in the class, doing everything with excellence.
+
             </p>
           </motion.div>
         </motion.div>
