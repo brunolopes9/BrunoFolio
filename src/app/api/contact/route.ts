@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     await request.json() as ContactRequestBody
 
 
-    // For now, we'll just simulate a successful response
+    // For now, just simulate a successful response
     return NextResponse.json(
       { message: 'Message sent successfully' },
       { status: 200 }
