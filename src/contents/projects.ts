@@ -62,9 +62,17 @@ export const projects: Project[] = [
       {
         title: 'NextHire',
         description: 'Next Hire is a full-featured Job Portal built with the MERN stack (MongoDB, Express, React, Node.js). It allows employers to post jobs and manage applications while job seekers can search for jobs, save favorites, and manage their profile.',
-        technologies: ['Typescript', 'Next','MongoDB','Express','Node.js'],
+        technologies: ['Javascript', 'React','MongoDB','Express','Node.js'],
         githubLink: 'https://github.com/brunolopes9/NextHire',
-        demoLink: 'https://demo.com',
-        image: '/projects/expense-tracker.webp',
+        demoLink: 'https://nexthire-3-frontend.onrender.com/',
+        image: '/projects/bruno8.png',
+      },
+      {
+        title: 'BrunoFolio',
+        description: 'A modern and responsive personal portfolio website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.This project showcases my skills, projects, and professional journey in a clean and interactive way.',
+        technologies: ['Typescript', 'Next','Tailwind CSS','Framer Motion'],
+        githubLink: 'https://github.com/brunolopes9/BrunoFolio',
+        demoLink: 'https://bruno-folio-8y1g.vercel.app/',
+        image: '/projects/bruno9.png',
       }
   ];
