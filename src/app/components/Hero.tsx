@@ -84,11 +84,25 @@ Junior Software Engineer | Full-Stack Developer | Growth-Minded Problem Solver  
             >
               
               <Link
-                href="https://drive.google.com/file/d/15HAOYTRuWSOvudOAA-5ONlHW-bhfrW0e/view"
+                href="https://drive.google.com/file/d/1OA9DGJUNvlqSGS3_iCJc2oA9gkQuCIUY/view?usp=drive_link"
                 target="_blank"
                 className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
               >
-                My CV
+                My English CV
+              </Link>
+            </motion.div>
+
+                        <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              
+              <Link
+                href="https://drive.google.com/file/d/16p602YF8qHy3HXUorZpkjCKMUlGKZuNb/view?usp=drive_link"
+                target="_blank"
+                className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
+              >
+                My Portuguese CV
               </Link>
             </motion.div>
 
