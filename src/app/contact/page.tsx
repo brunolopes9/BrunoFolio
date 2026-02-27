@@ -88,8 +88,8 @@ export default function Contact() {
               <FaEnvelope className="h-6 w-6 text-primary" />
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <a href="mailto:bruno.lopes9@hotmail.com" className="text-secondary hover:text-primary">
-                  bruno.lopes9@hotmail.com
+                <a href="mailto:bruno-lopes9@hotmail.com" className="text-secondary hover:text-primary">
+                  bruno-lopes9@hotmail.com
                 </a>
               </div>
             </motion.div>
