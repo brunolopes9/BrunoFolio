@@ -84,7 +84,7 @@ Junior Software Engineer | Full-Stack Developer | Growth-Minded Problem Solver  
             >
               
               <Link
-                href="https://drive.google.com/file/d/1mXRWDpyVDe7Olui818mikdB-rrV1YBUS/view?usp=sharing"
+                href="https://drive.google.com/file/d/1yJ8Ya5yilbSRQMAQOLUOfvejHkfopsJa/view?usp=sharing"
                 target="_blank"
                 className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
               >
@@ -98,7 +98,7 @@ Junior Software Engineer | Full-Stack Developer | Growth-Minded Problem Solver  
             >
               
               <Link
-                href="https://drive.google.com/file/d/1tjAb7RbQBYLoQ1M9Gtb75e_d8NM1xZN7/view?usp=sharing"
+                href="https://drive.google.com/file/d/1VSAYBIP7DNVaX1sED0-kFxJm0_H_oSUO/view?usp=sharing"
                 target="_blank"
                 className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
               >
