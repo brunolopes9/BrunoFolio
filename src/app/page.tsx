@@ -8,8 +8,6 @@ export default function Home() {
     <main>
       <Hero />
       <Projects />
-
-      <Newsletter />
     </main>
   );
 } 
