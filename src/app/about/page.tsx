@@ -2,29 +2,31 @@
 
 import { FaCode, FaLaptopCode, FaGraduationCap } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import { 
-  fadeInUp, 
-  fadeInDown, 
-  fadeIn, 
-  staggerContainer, 
-  cardHover, 
-  cardHoverSmall 
+import {
+  fadeInUp,
+  fadeInDown,
+  fadeIn,
+  staggerContainer,
+  cardHover,
+  cardHoverSmall
 } from '@/utils/animations'
 
 export default function About() {
   return (
     <div className="container max-w-7xl mx-auto py-12">
-      <motion.h1 
+
+      {/* Page Title */}
+      <motion.h1
         className="text-4xl font-bold mb-8 text-center"
         {...fadeInDown}
       >
         About Me
       </motion.h1>
-      
+
       {/* Bio Section */}
       <motion.section className="mb-16" {...fadeInUp}>
         <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
-          I'm a Full Stack Developer with expertise in web, mobile, IoT, and blockchain solutions. 
+          I&apos;m a junior Full Stack Developer with expertise in building modern web applications.
           I have over two years of professional experience building modern applications across frontend and backend stacks.
           I stand out for my analytical thinking, discipline, fast learning, and focus on delivering quality solutions. 
           Fluent in English, Portuguese, Spanish, and French, I bring a high-performance attitude and an ambitious spirit oriented towards technical and personal excellence.
@@ -33,49 +35,66 @@ export default function About() {
 
       {/* Skills Section */}
       <motion.section className="mb-16" {...fadeIn} transition={{ delay: 0.2 }}>
-        <motion.h2 className="section-title" {...fadeInUp}>Skills</motion.h2>
-        <motion.div 
+        <motion.h2 className="section-title" {...fadeInUp}>
+          Skills
+        </motion.h2>
+
+        <motion.div
           className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           variants={staggerContainer}
           initial="initial"
           animate="animate"
         >
-          <motion.div className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md" variants={fadeInUp} {...cardHover}>
+          {/* Frontend Card */}
+          <motion.div
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+            variants={fadeInUp}
+            {...cardHover}
+          >
             <FaCode className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Frontend</h3>
+            <h3 className="text-xl font-semibold mb-2">Languages & Frontend</h3>
             <ul className="text-secondary space-y-2">
-              <li>React / Next.js</li>
-              <li>TypeScript / JavaScript / HTML / CSS</li>
-              <li>Tailwind CSS</li>
-              <li>WordPress / Figma</li>
+              <li>JavaScript / TypeScript / HTML5 / CSS3 / SASS</li>
+              <li>React / Next.js / Tailwind CSS</li>
+              <li>WordPress / Figma / Responsive Design</li>
             </ul>
           </motion.div>
-          
-          <motion.div className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md" variants={fadeInUp} {...cardHover}>
+
+          {/* Backend Card */}
+          <motion.div
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+            variants={fadeInUp}
+            {...cardHover}
+          >
             <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Backend & IoT</h3>
+            <h3 className="text-xl font-semibold mb-2">Backend</h3>
             <ul className="text-secondary space-y-2">
-              <li>Node.js / Express / C# / .NET</li>
-              <li>SQL Server / PostgreSQL / MongoDB</li>
+              <li>Node.js / Express / C# / .NET / Python</li>
+              <li>SQL Server / PostgreSQL / MongoDB / MySQL</li>
               <li>REST APIs / Webhooks / Microservices</li>
-              <li>MQTT / BLE / Real-time systems</li>
+              <li>Authentication / Multi-profile access / SSO</li>
             </ul>
           </motion.div>
-          
-          <motion.div className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md" variants={fadeInUp} {...cardHover}>
+
+          {/* Tools & Others Card */}
+          <motion.div
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+            variants={fadeInUp}
+            {...cardHover}
+          >
             <FaGraduationCap className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Other Tools & Technologies</h3>
+            <h3 className="text-xl font-semibold mb-2">Tools & Others</h3>
             <ul className="text-secondary space-y-2">
-              <li>Git / GitHub / Azure DevOps</li>
-              <li>Docker / CI/CD / Automated testing</li>
-              <li>Python / Java / JavaScript</li>
+              <li>Git / GitHub / Azure DevOps / CI/CD / Docker</li>
               <li>Blockchain / Web3 / Smart Contracts</li>
+              <li>MQTT / BLE / Real-time Systems / IoT</li>
+              <li>Testing / Debugging / Performance Optimization / SEO</li>
             </ul>
           </motion.div>
         </motion.div>
       </motion.section>
 
-      {/* Experience Section */}
+    {/* Experience Section */}
       <motion.section className="mb-16" {...fadeIn} transition={{ delay: 0.4 }}>
         <motion.h2 className="section-title" {...fadeInUp}>Experience</motion.h2>
         <motion.div className="max-w-3xl mx-auto space-y-8" variants={staggerContainer} initial="initial" animate="animate">
@@ -138,6 +157,7 @@ export default function About() {
           </motion.div>
         </motion.div>
       </motion.section>
+
     </div>
   )
 }
