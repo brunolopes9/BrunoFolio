@@ -74,5 +74,12 @@ export const projects: Project[] = [
         githubLink: 'https://github.com/brunolopes9/BrunoFolio',
         demoLink: 'https://bruno-folio-8y1g.vercel.app/',
         image: '/projects/bruno9.png',
+      },
+          {
+        title: 'BestCall.pt',
+        description: 'Developed BestCall\'s corporate website, turning a Figma mockup into a fully responsive, pixel-perfect web platform. Built a complete back-office system with knowledge base, invoice management, payment tracking, account reports, and internal operational tools, enabling the team to manage content autonomously. Project developed using WordPress, HTML, CSS, PHP, JavaScript, and SQL.',
+        technologies: ['Wordpress', 'HTML','CSS','PHP','Javascript','SQL'],
+        demoLink: 'https://bestcall.pt/',
+        image: '/projects/bruno9.png',
       }
   ];
