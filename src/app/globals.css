@@ -8,14 +8,23 @@
   --color-text: #000000;
   --color-bg: #ffffff;
 
-  --font-sans: 'Inter', sans-serif;
+  --font-sans: var(--font-geist-sans), 'Inter', system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), 'Fira Code', monospace;
 
   --animation-fade-in: fadeIn 0.5s ease-in-out;
   --animation-slide-up: slideUp 0.5s ease-in-out;
 }
 
-
 @custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
 
 a {
   transition: all 0.2s ease;
@@ -25,23 +34,47 @@ a {
   .container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
-  
+
   .btn {
-    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200;
   }
-  
+
   .btn-primary {
-    @apply bg-primary text-white hover:bg-primary/90;
+    @apply bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/25;
   }
-  
+
   .btn-secondary {
     @apply bg-secondary text-white hover:bg-secondary/90;
   }
-  
+
   .section-title {
-    @apply text-3xl font-bold mb-8 text-center;
+    @apply text-3xl md:text-4xl font-bold mb-8 text-center;
   }
-} 
+
+  .glass {
+    @apply bg-white/80 dark:bg-gray-900/80 backdrop-blur-md;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
 
 @keyframes fadeIn {
   from {
