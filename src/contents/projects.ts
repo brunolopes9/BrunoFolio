@@ -10,8 +10,8 @@ export const projects: Project[] = [
     category: 'frontend',
     githubLink: '',
     demoLink: 'https://lopestech.pt/',
-    image: '/projects/LopesTech/1.webp',
-    images: ['/projects/LopesTech/1.webp', '/projects/LopesTech/2.webp'],
+    image: '/projects/LopesTech/1.png',
+    images: ['/projects/LopesTech/1.png', '/projects/LopesTech/2.webp'],
     featured: true,
     highlights: [
       'Bilingual PT/EN with persisted user preference',
@@ -30,8 +30,8 @@ export const projects: Project[] = [
     category: 'fullstack',
     githubLink: '',
     demoLink: 'https://lcgarage.pt/',
-    image: '/projects/LCGarage/1.webp',
-    images: ['/projects/LCGarage/1.webp', '/projects/LCGarage/2.webp'],
+    image: '/projects/LCGarage/1.png',
+    images: ['/projects/LCGarage/1.png', '/projects/LCGarage/2.webp'],
     featured: true,
     highlights: [
       'Service catalog with 10+ specialized auto services',
@@ -50,8 +50,8 @@ export const projects: Project[] = [
     category: 'frontend',
     githubLink: '',
     demoLink: 'https://flordocalvario.site/',
-    image: '/projects/FlorDoCalvario/1.webp',
-    images: ['/projects/FlorDoCalvario/1.webp', '/projects/FlorDoCalvario/2.webp'],
+    image: '/projects/FlorDoCalvario/1.png',
+    images: ['/projects/FlorDoCalvario/1.png', '/projects/FlorDoCalvario/2.webp'],
     featured: true,
     highlights: [
       'Schema.org CafeOrCoffeeShop for local SEO',
