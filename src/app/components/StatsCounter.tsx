@@ -6,10 +6,10 @@ import { staggerContainer, fadeInUpVariant } from '@/utils/animations'
 import type { Stat } from '@/types'
 
 const stats: Stat[] = [
-  { value: 2, suffix: '+', label: 'Years of Experience' },
-  { value: 10, suffix: '+', label: 'Projects Delivered' },
-  { value: 15, suffix: '+', label: 'Technologies Mastered' },
-  { value: 4, suffix: '', label: 'Languages Spoken' },
+  { value: 13, suffix: '+', label: 'Projects Delivered' },
+  { value: 3, suffix: '+', label: 'Years Building Software' },
+  { value: 4, suffix: '', label: 'Languages (PT · EN · FR · ES)' },
+  { value: 24, suffix: 'h', label: 'Response Time' },
 ]
 
 function AnimatedCounter({ target, suffix }: { target: number; suffix: string }) {

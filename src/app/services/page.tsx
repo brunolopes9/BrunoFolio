@@ -39,7 +39,8 @@ export default function Services() {
             How I Can Help Your Business
           </h1>
           <p className="text-secondary max-w-2xl mx-auto text-lg">
-            End-to-end software engineering services, from initial concept to production deployment
+            From multilingual corporate websites to custom dashboards — production-grade work for SMEs in Portugal and Europe.
+            Transparent pricing, clear deliverables, no agency overhead.
           </p>
         </motion.div>
 
@@ -118,16 +119,19 @@ export default function Services() {
         >
           <div className="bg-gradient-to-br from-primary via-blue-600 to-cyan-500 rounded-3xl p-12 md:p-16">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Let&apos;s Build Something Together
+              Not Sure Which Service Fits Your Project?
             </h2>
-            <p className="text-white/80 max-w-xl mx-auto mb-8">
-              Have a project in mind? I&apos;d love to hear about it. Let&apos;s discuss how I can help bring your ideas to life.
+            <p className="text-white/90 max-w-xl mx-auto mb-2">
+              Send me a short description of what you need and I&apos;ll reply with a recommendation, timeline, and quote.
+            </p>
+            <p className="text-sm text-white/70 mb-8">
+              Free consultation · 24h response · No commitment
             </p>
             <Link
               href="/contact"
               className="inline-block bg-white text-primary px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
             >
-              Start a Conversation
+              Get a Free Quote
             </Link>
           </div>
         </motion.div>

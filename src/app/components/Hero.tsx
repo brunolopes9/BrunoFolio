@@ -2,16 +2,16 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
 const roles = [
+  'Websites for SMEs',
+  'WordPress & Next.js Developer',
+  'Multilingual Sites (PT · EN · FR · ES)',
   'Full-Stack Developer',
-  'Software Engineer',
   'Founder of LopesTech',
-  'Backend Architect',
-  'Problem Solver',
 ]
 
 function useTypingEffect(words: string[], typingSpeed = 80, deletingSpeed = 50, pauseTime = 2000) {
@@ -62,12 +62,13 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
           >
             <motion.div
-              className="inline-block px-4 py-1.5 bg-primary/10 rounded-full text-primary text-sm font-medium mb-6"
+              className="inline-flex items-center gap-2 px-4 py-1.5 bg-green-500/10 rounded-full text-green-600 dark:text-green-400 text-sm font-medium mb-6"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              Available for new projects
+              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+              Available for hire · EU timezone
             </motion.div>
 
             <motion.h1
@@ -98,9 +99,10 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              I build modern web applications, robust APIs, and scalable systems
-              that solve real-world problems. From blockchain platforms to IoT monitoring,
-              I turn complex requirements into clean, reliable software.
+              I help small and medium businesses across Portugal and Europe launch
+              fast, multilingual websites and custom web apps that actually convert.
+              From WordPress to Next.js, WooCommerce to full-stack dashboards —
+              clean code, on time, no surprises.
             </motion.p>
 
             <motion.div
@@ -110,17 +112,27 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
             >
               <Link
-                href="/projects"
+                href="/contact"
                 className="bg-primary text-white px-8 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors text-center shadow-lg shadow-primary/25"
               >
-                View My Work
+                Hire Me
               </Link>
               <Link
-                href="/contact"
+                href="/services"
                 className="bg-gray-100 dark:bg-gray-800 px-8 py-3 rounded-lg font-medium hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-center"
               >
-                Get In Touch
+                See Services
               </Link>
+              <a
+                href="https://wa.me/351933938716?text=Hi%20Bruno%2C%20I%27d%20like%20to%20discuss%20a%20website%20project."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-medium transition-colors shadow-lg shadow-green-500/25"
+                aria-label="Contact on WhatsApp"
+              >
+                <FaWhatsapp className="h-5 w-5" />
+                WhatsApp
+              </a>
             </motion.div>
 
             <motion.div

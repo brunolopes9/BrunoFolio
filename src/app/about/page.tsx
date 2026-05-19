@@ -119,12 +119,19 @@ export default function About() {
           </motion.span>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
           <p className="text-lg text-secondary max-w-3xl mx-auto leading-relaxed">
-            I&apos;m a Full Stack Developer and the founder of <span className="text-primary font-semibold">LopesTech</span>,
-            a Viseu-based business that combines mobile device repair with custom software development. With 2+ years
-            of professional experience building modern applications across frontend and backend stacks, I stand out for
-            my analytical thinking, discipline, fast learning, and focus on delivering quality solutions. Fluent in
-            English, Portuguese, Spanish, and French, I bring a high-performance attitude and an ambitious spirit
-            oriented towards technical and personal excellence.
+            I&apos;m a Computer Engineer from <span className="text-primary font-semibold">São Pedro de France, Viseu</span>,
+            and the founder of <span className="text-primary font-semibold">LopesTech</span> — a Portuguese technology
+            business combining smartphone repairs, custom software, and corporate websites. I grew up above my parents&apos;
+            café and started repairing phones at 19 while studying Computer Engineering at ESTGV. Three years of word-of-mouth
+            repairs turned into a real brand: today I build production websites and web apps for small and medium businesses
+            across Portugal and Europe.
+          </p>
+          <p className="text-lg text-secondary max-w-3xl mx-auto leading-relaxed mt-4">
+            I&apos;m fluent in <span className="font-semibold">Portuguese, English, Spanish, and French</span>, which means
+            zero communication friction with European clients. I write clean, maintainable code, respond within 24 hours, and
+            focus on outcomes — not on padding hours. My stack: <span className="font-semibold">React, Next.js, WordPress,
+            .NET 8, TypeScript, SQL Server</span>. If you need a website that actually converts or a custom app that scales,
+            I&apos;m the developer you want on your team.
           </p>
         </motion.div>
 

@@ -30,9 +30,9 @@ export default function ServicesPreview() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What I Do</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">What I Build</h2>
           <p className="text-secondary max-w-2xl mx-auto">
-            End-to-end software solutions that solve real problems and drive business value
+            From multilingual websites to full-stack apps — clean code, fast delivery, no surprises
           </p>
         </motion.div>
 

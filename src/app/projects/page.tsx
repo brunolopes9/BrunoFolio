@@ -42,7 +42,8 @@ export default function Projects() {
           </motion.span>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">My Projects</h1>
           <p className="text-lg text-secondary max-w-2xl mx-auto">
-            A collection of projects showcasing full-stack development, from production platforms to learning experiments
+            Real client work and personal builds — corporate websites, full-stack platforms, blockchain middleware,
+            and IoT systems. All shipped, most still in production.
           </p>
         </motion.div>
 

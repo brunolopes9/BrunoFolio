@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { fadeInUp, slideInLeft, slideInRight } from '@/utils/animations'
 
@@ -107,9 +107,10 @@ export default function Contact() {
           >
             Contact
           </motion.span>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Let&apos;s Talk About Your Project</h1>
           <p className="text-lg text-secondary max-w-2xl mx-auto">
-            Have a project in mind or want to discuss collaboration? I&apos;d love to hear from you.
+            Tell me what you need and I&apos;ll reply within 24 hours with concrete ideas, a timeline, and an honest quote.
+            No commitment, no boilerplate response.
           </p>
         </motion.div>
 
@@ -118,16 +119,17 @@ export default function Contact() {
             <div>
               <h2 className="text-xl font-semibold mb-4">Contact Information</h2>
               <p className="text-secondary text-sm leading-relaxed">
-                I&apos;m always open to discussing new projects, creative ideas, or
-                opportunities to be part of your visions.
+                Fastest way to reach me is WhatsApp or email. I respond within 24 hours on business days,
+                often the same day.
               </p>
             </div>
 
             <div className="space-y-4">
               {[
+                { icon: FaWhatsapp, label: 'WhatsApp (fastest)', value: '+(351) 933 938 716', href: 'https://wa.me/351933938716?text=Hi%20Bruno%2C%20I%27d%20like%20to%20discuss%20a%20project.' },
                 { icon: FaEnvelope, label: 'Email', value: 'bruno-lopes9@hotmail.com', href: 'mailto:bruno-lopes9@hotmail.com' },
                 { icon: FaPhone, label: 'Phone', value: '+(351) 933 938 716', href: 'tel:+351933938716' },
-                { icon: FaMapMarkerAlt, label: 'Location', value: 'Viseu, Portugal', href: undefined },
+                { icon: FaMapMarkerAlt, label: 'Location', value: 'Viseu, Portugal · EU timezone', href: undefined },
               ].map((item) => (
                 <div
                   key={item.label}

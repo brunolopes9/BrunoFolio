@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import { FaWhatsapp } from 'react-icons/fa'
 
 export default function CTA() {
   return (
@@ -23,17 +24,26 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              Ready to Build Something Great?
+              Got a Website or App Project in Mind?
             </motion.h2>
             <motion.p
-              className="text-lg text-white/80 max-w-2xl mx-auto mb-8"
+              className="text-lg text-white/90 max-w-2xl mx-auto mb-3"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
             >
-              Whether you need a web application, API architecture, or technical consulting —
-              let&apos;s discuss how I can help turn your vision into reality.
+              Send me a short description and I&apos;ll reply with concrete ideas, a timeline,
+              and an honest estimate — no commitment, no boilerplate.
+            </motion.p>
+            <motion.p
+              className="text-sm text-white/70 mb-8"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.35 }}
+            >
+              Free 20-minute consultation · Reply within 24h · EU timezone
             </motion.p>
             <motion.div
               className="flex flex-col sm:flex-row justify-center gap-4"
@@ -46,14 +56,17 @@ export default function CTA() {
                 href="/contact"
                 className="inline-block bg-white text-primary px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
               >
-                Start a Conversation
+                Get a Free Quote
               </Link>
-              <Link
-                href="/services"
-                className="inline-block bg-white/10 text-white px-8 py-3 rounded-lg font-medium hover:bg-white/20 transition-colors border border-white/20"
+              <a
+                href="https://wa.me/351933938716?text=Hi%20Bruno%2C%20I%27d%20like%20to%20discuss%20a%20project."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-white/10 text-white px-8 py-3 rounded-lg font-medium hover:bg-white/20 transition-colors border border-white/20"
               >
-                View Services
-              </Link>
+                <FaWhatsapp className="h-5 w-5" />
+                WhatsApp
+              </a>
             </motion.div>
           </div>
         </motion.div>
